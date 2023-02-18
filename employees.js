@@ -3,7 +3,8 @@ const sch={
     ename:String,
     age:Number,
     loc:String,
-    id:Number
+    id:Number,
+    name:String
     
 }
 const monmodel=mongoose.model("employees",sch)

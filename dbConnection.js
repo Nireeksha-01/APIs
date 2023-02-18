@@ -9,4 +9,5 @@ mongoose.connect("mongodb://localhost:27017/emp-data",{
     }else{
         console.log("error")
     }
+    console.log('the end')
 })
