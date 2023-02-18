@@ -13,12 +13,14 @@ app.post("/post",async(req,res)=>{
         ename:req.body.ename,
         age:req.body.age,
         loc:req.body.loc,
-        id:req.body.id
+        id:req.body.id,
+        std:req.body.id
         
     })
     const val=await data.save();
     res.json(val);
 })
+console.log('my name is name')
 
 app.listen(3000,()=>{
     console.log("on port 3000")
