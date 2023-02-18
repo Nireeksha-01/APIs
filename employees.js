@@ -5,6 +5,7 @@ const sch={
     loc:String,
     id:Number,
     std:Number,
+    pid:Number
     
     
 }
