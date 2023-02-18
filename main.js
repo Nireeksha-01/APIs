@@ -14,7 +14,8 @@ app.post("/post",async(req,res)=>{
         age:req.body.age,
         loc:req.body.loc,
         id:req.body.id,
-        std:req.body.id
+        std:req.body.id,
+        aid:req.body.aid,
         
     })
     const val=await data.save();
